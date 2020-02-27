@@ -1,0 +1,372 @@
+2020-40-25 19:40:46 [main] INFO  SeleniumDemoTest:32 - Driver initialization
+2020-40-25 19:40:54 [main] INFO  SeleniumDemoTest:35 - Driver was initialized
+2020-40-25 19:40:54 [main] INFO  SeleniumDemoTest:24 - Configuring driver
+2020-40-25 19:40:54 [main] INFO  SeleniumDemoTest:28 - Driver was configured with implicit timeout 15 seconds
+2020-40-25 19:40:54 [main] INFO  TestDemo:10 - 
+2020-40-25 19:40:54 [main] INFO  TestService:57 - Closing threads within webDriverThreadPool
+2020-43-25 19:43:14 [main] INFO  TestService:46 - Requesting driver
+2020-43-25 19:43:14 [main] INFO  WebDriverThread:64 - Specifying driver (default is 'FIREFOX')
+2020-43-25 19:43:14 [main] INFO  WebDriverThread:67 - Desired driver is 'CHROME'
+2020-43-25 19:43:14 [main] INFO  WebDriverThread:87 - Current Browser Selection: CHROME
+2020-43-25 19:43:14 [main] INFO  WebDriverThread:88 - Current Operating System: WINDOWS 10
+2020-43-25 19:43:14 [main] INFO  WebDriverThread:89 - Current Architecture: amd64
+2020-43-25 19:43:14 [main] INFO  WebDriverThread:90 - Remote execution: false
+2020-43-25 19:43:15 [main] INFO  WebDriverManager:615 - Using chromedriver 80.0.3987.106 (since Google Chrome 80 is installed in your machine)
+2020-43-25 19:43:15 [main] INFO  WebDriverManager:1113 - Exporting webdriver.chrome.driver as C:\Users\QaLight\.m2\repository\webdriver\chromedriver\win32\80.0.3987.106\chromedriver.exe
+2020-43-25 19:43:19 [main] INFO  WebDriverThread:44 - Driver has been obtained
+2020-43-25 19:43:31 [main] INFO  TestService:46 - Requesting driver
+2020-43-25 19:43:31 [main] INFO  WebDriverThread:44 - Driver has been obtained
+2020-43-25 19:43:31 [main] INFO  TestService:57 - Closing threads within webDriverThreadPool
+2020-43-25 19:43:33 [main] INFO  WebDriverThread:52 - Driver has been closed
+2020-43-25 19:43:33 [main] INFO  TestService:60 - Thread closed
+2020-47-25 19:47:06 [main] INFO  TestService:46 - Requesting driver
+2020-47-25 19:47:06 [main] INFO  WebDriverThread:64 - Specifying driver (default is 'FIREFOX')
+2020-47-25 19:47:06 [main] INFO  WebDriverThread:67 - Desired driver is 'CHROME'
+2020-47-25 19:47:06 [main] INFO  WebDriverThread:87 - Current Browser Selection: CHROME
+2020-47-25 19:47:06 [main] INFO  WebDriverThread:88 - Current Operating System: WINDOWS 10
+2020-47-25 19:47:06 [main] INFO  WebDriverThread:89 - Current Architecture: amd64
+2020-47-25 19:47:06 [main] INFO  WebDriverThread:90 - Remote execution: false
+2020-47-25 19:47:07 [main] INFO  WebDriverManager:615 - Using chromedriver 80.0.3987.106 (since Google Chrome 80 is installed in your machine)
+2020-47-25 19:47:07 [main] INFO  WebDriverManager:1113 - Exporting webdriver.chrome.driver as C:\Users\QaLight\.m2\repository\webdriver\chromedriver\win32\80.0.3987.106\chromedriver.exe
+2020-47-25 19:47:11 [main] INFO  WebDriverThread:44 - Driver has been obtained
+2020-47-25 19:47:12 [main] INFO  TestService:46 - Requesting driver
+2020-47-25 19:47:12 [main] INFO  WebDriverThread:44 - Driver has been obtained
+2020-47-25 19:47:12 [main] INFO  TestService:42 - In TestService BeforeClass
+2020-47-25 19:47:12 [main] INFO  TestService:46 - Requesting driver
+2020-47-25 19:47:12 [main] INFO  WebDriverThread:44 - Driver has been obtained
+2020-47-25 19:47:12 [main] INFO  TestService:57 - Closing threads within webDriverThreadPool
+2020-47-25 19:47:15 [main] INFO  WebDriverThread:52 - Driver has been closed
+2020-47-25 19:47:15 [main] INFO  TestService:60 - Thread closed
+2020-04-25 20:04:20 [main] INFO  TestService:46 - Requesting driver
+2020-04-25 20:04:20 [main] INFO  WebDriverThread:64 - Specifying driver (default is 'FIREFOX')
+2020-04-25 20:04:20 [main] INFO  WebDriverThread:67 - Desired driver is 'OPERA'
+2020-04-25 20:04:20 [main] INFO  WebDriverThread:87 - Current Browser Selection: OPERA
+2020-04-25 20:04:20 [main] INFO  WebDriverThread:88 - Current Operating System: WINDOWS 10
+2020-04-25 20:04:20 [main] INFO  WebDriverThread:89 - Current Architecture: amd64
+2020-04-25 20:04:20 [main] INFO  WebDriverThread:90 - Remote execution: false
+2020-04-25 20:04:21 [main] INFO  WebDriverManager:1140 - Reading https://api.github.com/repos/operasoftware/operachromiumdriver/releases to seek operadriver
+2020-04-25 20:04:23 [main] INFO  WebDriverManager:984 - Latest version of operadriver is 80.0.3987.100
+2020-04-25 20:04:23 [main] INFO  Downloader:128 - Downloading https://github.com/operasoftware/operachromiumdriver/releases/download/v.80.0.3987.100/operadriver_win64.zip
+2020-04-25 20:04:26 [main] INFO  Downloader:183 - Extracting binary from compressed file operadriver_win64.zip
+2020-04-25 20:04:27 [main] INFO  WebDriverManager:119 - Operadriver binary: C:\Users\QaLight\AppData\Local\Temp\6825775058530222324\operadriver_win64\operadriver.exe
+2020-04-25 20:04:27 [main] INFO  WebDriverManager:1113 - Exporting webdriver.opera.driver as C:\Users\QaLight\.m2\repository\webdriver\operadriver\win64\80.0.3987.100\operadriver.exe
+2020-04-25 20:04:29 [main] INFO  TestService:42 - In TestService BeforeClass
+2020-04-25 20:04:29 [main] INFO  TestService:46 - Requesting driver
+2020-04-25 20:04:29 [main] INFO  WebDriverThread:64 - Specifying driver (default is 'FIREFOX')
+2020-04-25 20:04:29 [main] INFO  WebDriverThread:67 - Desired driver is 'OPERA'
+2020-04-25 20:04:29 [main] INFO  WebDriverThread:87 - Current Browser Selection: OPERA
+2020-04-25 20:04:29 [main] INFO  WebDriverThread:88 - Current Operating System: WINDOWS 10
+2020-04-25 20:04:29 [main] INFO  WebDriverThread:89 - Current Architecture: amd64
+2020-04-25 20:04:29 [main] INFO  WebDriverThread:90 - Remote execution: false
+2020-04-25 20:04:29 [main] INFO  WebDriverManager:1113 - Exporting webdriver.opera.driver as C:\Users\QaLight\.m2\repository\webdriver\operadriver\win64\80.0.3987.100\operadriver.exe
+2020-28-25 20:28:30 [main] INFO  TestService:46 - Requesting driver
+2020-28-25 20:28:30 [main] INFO  WebDriverThread:64 - Specifying driver (default is 'FIREFOX')
+2020-28-25 20:28:30 [main] INFO  WebDriverThread:67 - Desired driver is 'CHROME'
+2020-28-25 20:28:30 [main] INFO  WebDriverThread:87 - Current Browser Selection: CHROME
+2020-28-25 20:28:30 [main] INFO  WebDriverThread:88 - Current Operating System: WINDOWS 10
+2020-28-25 20:28:30 [main] INFO  WebDriverThread:89 - Current Architecture: amd64
+2020-28-25 20:28:30 [main] INFO  WebDriverThread:90 - Remote execution: false
+2020-28-25 20:28:31 [main] INFO  WebDriverManager:615 - Using chromedriver 80.0.3987.106 (since Google Chrome 80 is installed in your machine)
+2020-28-25 20:28:31 [main] INFO  WebDriverManager:1113 - Exporting webdriver.chrome.driver as C:\Users\QaLight\.m2\repository\webdriver\chromedriver\win32\80.0.3987.106\chromedriver.exe
+2020-28-25 20:28:34 [main] INFO  WebDriverThread:44 - Driver has been obtained
+2020-28-25 20:28:37 [main] INFO  TestService:46 - Requesting driver
+2020-28-25 20:28:37 [main] INFO  WebDriverThread:44 - Driver has been obtained
+2020-28-25 20:28:37 [main] INFO  TestService:42 - In TestService BeforeClass
+2020-28-25 20:28:37 [main] INFO  TestService:46 - Requesting driver
+2020-28-25 20:28:37 [main] INFO  WebDriverThread:44 - Driver has been obtained
+2020-28-25 20:28:37 [main] INFO  TestService:57 - Closing threads within webDriverThreadPool
+2020-28-25 20:28:38 [main] INFO  WebDriverThread:52 - Driver has been closed
+2020-28-25 20:28:38 [main] INFO  TestService:60 - Thread closed
+2020-43-25 20:43:52 [main] INFO  TestService:46 - Requesting driver
+2020-43-25 20:43:52 [main] INFO  WebDriverThread:64 - Specifying driver (default is 'FIREFOX')
+2020-43-25 20:43:52 [main] WARN  WebDriverThread:72 - No driver specified, defaulting to 'FIREFOX'...
+2020-43-25 20:43:52 [main] INFO  WebDriverThread:87 - Current Browser Selection: FIREFOX
+2020-43-25 20:43:52 [main] INFO  WebDriverThread:88 - Current Operating System: WINDOWS 10
+2020-43-25 20:43:52 [main] INFO  WebDriverThread:89 - Current Architecture: amd64
+2020-43-25 20:43:52 [main] INFO  WebDriverThread:90 - Remote execution: false
+2020-43-25 20:43:54 [main] INFO  WebDriverManager:1140 - Reading https://api.github.com/repos/mozilla/geckodriver/releases to seek geckodriver
+2020-43-25 20:43:55 [main] INFO  WebDriverManager:984 - Latest version of geckodriver is 0.26.0
+2020-43-25 20:43:55 [main] INFO  Downloader:128 - Downloading https://github.com/mozilla/geckodriver/releases/download/v0.26.0/geckodriver-v0.26.0-win64.zip
+2020-44-25 20:44:00 [main] INFO  Downloader:183 - Extracting binary from compressed file geckodriver-v0.26.0-win64.zip
+2020-44-25 20:44:00 [main] INFO  WebDriverManager:1113 - Exporting webdriver.gecko.driver as C:\Users\QaLight\.m2\repository\webdriver\geckodriver\win64\0.26.0\geckodriver.exe
+2020-44-25 20:44:07 [main] INFO  WebDriverThread:44 - Driver has been obtained
+2020-44-25 20:44:10 [main] INFO  TestService:46 - Requesting driver
+2020-44-25 20:44:10 [main] INFO  WebDriverThread:44 - Driver has been obtained
+2020-44-25 20:44:10 [main] INFO  TestService:57 - Closing threads within webDriverThreadPool
+2020-44-25 20:44:12 [main] INFO  WebDriverThread:52 - Driver has been closed
+2020-44-25 20:44:12 [main] INFO  TestService:60 - Thread closed
+2020-45-25 20:45:16 [main] INFO  TestService:46 - Requesting driver
+2020-45-25 20:45:16 [main] INFO  WebDriverThread:64 - Specifying driver (default is 'FIREFOX')
+2020-45-25 20:45:16 [main] WARN  WebDriverThread:72 - No driver specified, defaulting to 'FIREFOX'...
+2020-45-25 20:45:16 [main] INFO  WebDriverThread:87 - Current Browser Selection: FIREFOX
+2020-45-25 20:45:16 [main] INFO  WebDriverThread:88 - Current Operating System: WINDOWS 10
+2020-45-25 20:45:16 [main] INFO  WebDriverThread:89 - Current Architecture: amd64
+2020-45-25 20:45:16 [main] INFO  WebDriverThread:90 - Remote execution: false
+2020-45-25 20:45:18 [main] INFO  WebDriverManager:1140 - Reading https://api.github.com/repos/mozilla/geckodriver/releases to seek geckodriver
+2020-45-25 20:45:19 [main] INFO  WebDriverManager:984 - Latest version of geckodriver is 0.26.0
+2020-45-25 20:45:19 [main] INFO  Downloader:167 - Using binary driver previously downloaded
+2020-45-25 20:45:19 [main] INFO  WebDriverManager:1113 - Exporting webdriver.gecko.driver as C:\Users\QaLight\.m2\repository\webdriver\geckodriver\win64\0.26.0\geckodriver.exe
+2020-45-25 20:45:25 [main] INFO  WebDriverThread:44 - Driver has been obtained
+2020-45-25 20:45:32 [main] INFO  TestService:46 - Requesting driver
+2020-45-25 20:45:32 [main] INFO  WebDriverThread:44 - Driver has been obtained
+2020-45-25 20:45:32 [main] INFO  TestService:57 - Closing threads within webDriverThreadPool
+2020-45-25 20:45:34 [main] INFO  WebDriverThread:52 - Driver has been closed
+2020-45-25 20:45:34 [main] INFO  TestService:60 - Thread closed
+2020-17-25 21:17:20 [main] INFO  TestService:46 - Requesting driver
+2020-17-25 21:17:21 [main] INFO  WebDriverThread:64 - Specifying driver (default is 'FIREFOX')
+2020-17-25 21:17:21 [main] WARN  WebDriverThread:72 - No driver specified, defaulting to 'FIREFOX'...
+2020-17-25 21:17:21 [main] INFO  WebDriverThread:87 - Current Browser Selection: FIREFOX
+2020-17-25 21:17:21 [main] INFO  WebDriverThread:88 - Current Operating System: WINDOWS 10
+2020-17-25 21:17:21 [main] INFO  WebDriverThread:89 - Current Architecture: amd64
+2020-17-25 21:17:21 [main] INFO  WebDriverThread:90 - Remote execution: false
+2020-17-25 21:17:22 [main] INFO  WebDriverManager:1140 - Reading https://api.github.com/repos/mozilla/geckodriver/releases to seek geckodriver
+2020-17-25 21:17:26 [main] INFO  WebDriverManager:984 - Latest version of geckodriver is 0.26.0
+2020-17-25 21:17:26 [main] INFO  Downloader:167 - Using binary driver previously downloaded
+2020-17-25 21:17:26 [main] INFO  WebDriverManager:1113 - Exporting webdriver.gecko.driver as C:\Users\QaLight\.m2\repository\webdriver\geckodriver\win64\0.26.0\geckodriver.exe
+2020-17-25 21:17:33 [main] INFO  WebDriverThread:44 - Driver has been obtained
+2020-17-25 21:17:51 [main] INFO  TestService:46 - Requesting driver
+2020-17-25 21:17:51 [main] INFO  WebDriverThread:44 - Driver has been obtained
+2020-17-25 21:17:51 [main] INFO  TestService:57 - Closing threads within webDriverThreadPool
+2020-17-25 21:17:53 [main] INFO  WebDriverThread:52 - Driver has been closed
+2020-17-25 21:17:53 [main] INFO  TestService:60 - Thread closed
+2020-31-25 21:31:10 [main] INFO  TestService:46 - Requesting driver
+2020-31-25 21:31:10 [main] INFO  WebDriverThread:64 - Specifying driver (default is 'FIREFOX')
+2020-31-25 21:31:10 [main] WARN  WebDriverThread:72 - No driver specified, defaulting to 'FIREFOX'...
+2020-31-25 21:31:10 [main] INFO  WebDriverThread:87 - Current Browser Selection: FIREFOX
+2020-31-25 21:31:10 [main] INFO  WebDriverThread:88 - Current Operating System: WINDOWS 10
+2020-31-25 21:31:10 [main] INFO  WebDriverThread:89 - Current Architecture: amd64
+2020-31-25 21:31:10 [main] INFO  WebDriverThread:90 - Remote execution: false
+2020-31-25 21:31:11 [main] INFO  WebDriverManager:1140 - Reading https://api.github.com/repos/mozilla/geckodriver/releases to seek geckodriver
+2020-31-25 21:31:12 [main] INFO  WebDriverManager:984 - Latest version of geckodriver is 0.26.0
+2020-31-25 21:31:12 [main] INFO  Downloader:167 - Using binary driver previously downloaded
+2020-31-25 21:31:12 [main] INFO  WebDriverManager:1113 - Exporting webdriver.gecko.driver as C:\Users\QaLight\.m2\repository\webdriver\geckodriver\win64\0.26.0\geckodriver.exe
+2020-31-25 21:31:19 [main] INFO  WebDriverThread:44 - Driver has been obtained
+2020-31-25 21:31:27 [main] INFO  TestService:46 - Requesting driver
+2020-31-25 21:31:27 [main] INFO  WebDriverThread:44 - Driver has been obtained
+2020-31-25 21:31:27 [main] INFO  TestService:57 - Closing threads within webDriverThreadPool
+2020-31-25 21:31:30 [main] INFO  WebDriverThread:52 - Driver has been closed
+2020-31-25 21:31:30 [main] INFO  TestService:60 - Thread closed
+2020-13-27 20:13:26 [main] INFO  TestService:46 - Requesting driver
+2020-13-27 20:13:26 [main] INFO  WebDriverThread:64 - Specifying driver (default is 'FIREFOX')
+2020-13-27 20:13:26 [main] WARN  WebDriverThread:72 - No driver specified, defaulting to 'FIREFOX'...
+2020-13-27 20:13:26 [main] INFO  WebDriverThread:87 - Current Browser Selection: FIREFOX
+2020-13-27 20:13:26 [main] INFO  WebDriverThread:88 - Current Operating System: WINDOWS 10
+2020-13-27 20:13:26 [main] INFO  WebDriverThread:89 - Current Architecture: amd64
+2020-13-27 20:13:26 [main] INFO  WebDriverThread:90 - Remote execution: false
+2020-13-27 20:13:28 [main] INFO  WebDriverManager:1140 - Reading https://api.github.com/repos/mozilla/geckodriver/releases to seek geckodriver
+2020-13-27 20:13:29 [main] INFO  WebDriverManager:984 - Latest version of geckodriver is 0.26.0
+2020-13-27 20:13:29 [main] INFO  Downloader:167 - Using binary driver previously downloaded
+2020-13-27 20:13:29 [main] INFO  WebDriverManager:1113 - Exporting webdriver.gecko.driver as C:\Users\QaLight\.m2\repository\webdriver\geckodriver\win64\0.26.0\geckodriver.exe
+2020-13-27 20:13:37 [main] INFO  WebDriverThread:44 - Driver has been obtained
+2020-13-27 20:13:39 [main] INFO  TestService:46 - Requesting driver
+2020-13-27 20:13:39 [main] INFO  WebDriverThread:44 - Driver has been obtained
+2020-13-27 20:13:40 [main] INFO  TestService:46 - Requesting driver
+2020-13-27 20:13:40 [main] INFO  WebDriverThread:44 - Driver has been obtained
+2020-13-27 20:13:41 [main] INFO  TestService:46 - Requesting driver
+2020-13-27 20:13:41 [main] INFO  WebDriverThread:44 - Driver has been obtained
+2020-13-27 20:13:42 [main] INFO  TestService:46 - Requesting driver
+2020-13-27 20:13:42 [main] INFO  WebDriverThread:44 - Driver has been obtained
+2020-13-27 20:13:43 [main] INFO  TestService:46 - Requesting driver
+2020-13-27 20:13:43 [main] INFO  WebDriverThread:44 - Driver has been obtained
+2020-13-27 20:13:44 [main] INFO  TestService:46 - Requesting driver
+2020-13-27 20:13:44 [main] INFO  WebDriverThread:44 - Driver has been obtained
+2020-13-27 20:13:44 [main] INFO  TestService:57 - Closing threads within webDriverThreadPool
+2020-13-27 20:13:46 [main] INFO  WebDriverThread:52 - Driver has been closed
+2020-13-27 20:13:46 [main] INFO  TestService:60 - Thread closed
+2020-31-27 20:31:19 [main] INFO  TestService:46 - Requesting driver
+2020-31-27 20:31:19 [main] INFO  WebDriverThread:64 - Specifying driver (default is 'FIREFOX')
+2020-31-27 20:31:19 [main] WARN  WebDriverThread:72 - No driver specified, defaulting to 'FIREFOX'...
+2020-31-27 20:31:19 [main] INFO  WebDriverThread:87 - Current Browser Selection: FIREFOX
+2020-31-27 20:31:19 [main] INFO  WebDriverThread:88 - Current Operating System: WINDOWS 10
+2020-31-27 20:31:19 [main] INFO  WebDriverThread:89 - Current Architecture: amd64
+2020-31-27 20:31:19 [main] INFO  WebDriverThread:90 - Remote execution: false
+2020-31-27 20:31:20 [main] INFO  WebDriverManager:1140 - Reading https://api.github.com/repos/mozilla/geckodriver/releases to seek geckodriver
+2020-31-27 20:31:21 [main] INFO  WebDriverManager:984 - Latest version of geckodriver is 0.26.0
+2020-31-27 20:31:22 [main] INFO  Downloader:167 - Using binary driver previously downloaded
+2020-31-27 20:31:22 [main] INFO  WebDriverManager:1113 - Exporting webdriver.gecko.driver as C:\Users\QaLight\.m2\repository\webdriver\geckodriver\win64\0.26.0\geckodriver.exe
+2020-31-27 20:31:28 [main] INFO  WebDriverThread:44 - Driver has been obtained
+2020-31-27 20:31:30 [main] INFO  TestService:46 - Requesting driver
+2020-31-27 20:31:30 [main] INFO  WebDriverThread:44 - Driver has been obtained
+2020-31-27 20:31:31 [main] INFO  TestService:46 - Requesting driver
+2020-31-27 20:31:31 [main] INFO  WebDriverThread:44 - Driver has been obtained
+2020-31-27 20:31:32 [main] INFO  TestService:46 - Requesting driver
+2020-31-27 20:31:32 [main] INFO  WebDriverThread:44 - Driver has been obtained
+2020-31-27 20:31:33 [main] INFO  TestService:46 - Requesting driver
+2020-31-27 20:31:33 [main] INFO  WebDriverThread:44 - Driver has been obtained
+2020-31-27 20:31:34 [main] INFO  TestService:46 - Requesting driver
+2020-31-27 20:31:34 [main] INFO  WebDriverThread:44 - Driver has been obtained
+2020-31-27 20:31:35 [main] INFO  TestService:46 - Requesting driver
+2020-31-27 20:31:35 [main] INFO  WebDriverThread:44 - Driver has been obtained
+2020-31-27 20:31:35 [main] INFO  TestService:57 - Closing threads within webDriverThreadPool
+2020-31-27 20:31:37 [main] INFO  WebDriverThread:52 - Driver has been closed
+2020-31-27 20:31:37 [main] INFO  TestService:60 - Thread closed
+2020-40-27 20:40:45 [main] INFO  TestService:46 - Requesting driver
+2020-40-27 20:40:45 [main] INFO  WebDriverThread:64 - Specifying driver (default is 'FIREFOX')
+2020-40-27 20:40:45 [main] WARN  WebDriverThread:72 - No driver specified, defaulting to 'FIREFOX'...
+2020-40-27 20:40:45 [main] INFO  WebDriverThread:87 - Current Browser Selection: FIREFOX
+2020-40-27 20:40:45 [main] INFO  WebDriverThread:88 - Current Operating System: WINDOWS 10
+2020-40-27 20:40:45 [main] INFO  WebDriverThread:89 - Current Architecture: amd64
+2020-40-27 20:40:45 [main] INFO  WebDriverThread:90 - Remote execution: false
+2020-40-27 20:40:46 [main] INFO  WebDriverManager:1140 - Reading https://api.github.com/repos/mozilla/geckodriver/releases to seek geckodriver
+2020-40-27 20:40:49 [main] INFO  WebDriverManager:984 - Latest version of geckodriver is 0.26.0
+2020-40-27 20:40:49 [main] INFO  Downloader:167 - Using binary driver previously downloaded
+2020-40-27 20:40:49 [main] INFO  WebDriverManager:1113 - Exporting webdriver.gecko.driver as C:\Users\QaLight\.m2\repository\webdriver\geckodriver\win64\0.26.0\geckodriver.exe
+2020-40-27 20:40:56 [main] INFO  WebDriverThread:44 - Driver has been obtained
+2020-40-27 20:40:58 [main] INFO  TestService:46 - Requesting driver
+2020-40-27 20:40:58 [main] INFO  WebDriverThread:44 - Driver has been obtained
+2020-40-27 20:40:59 [main] INFO  TestService:46 - Requesting driver
+2020-40-27 20:40:59 [main] INFO  WebDriverThread:44 - Driver has been obtained
+2020-41-27 20:41:00 [main] INFO  TestService:46 - Requesting driver
+2020-41-27 20:41:00 [main] INFO  WebDriverThread:44 - Driver has been obtained
+2020-41-27 20:41:01 [main] INFO  TestService:46 - Requesting driver
+2020-41-27 20:41:01 [main] INFO  WebDriverThread:44 - Driver has been obtained
+2020-41-27 20:41:02 [main] INFO  TestService:46 - Requesting driver
+2020-41-27 20:41:02 [main] INFO  WebDriverThread:44 - Driver has been obtained
+2020-41-27 20:41:03 [main] INFO  TestService:46 - Requesting driver
+2020-41-27 20:41:03 [main] INFO  WebDriverThread:44 - Driver has been obtained
+2020-41-27 20:41:03 [main] INFO  TestService:57 - Closing threads within webDriverThreadPool
+2020-41-27 20:41:05 [main] INFO  WebDriverThread:52 - Driver has been closed
+2020-41-27 20:41:05 [main] INFO  TestService:60 - Thread closed
+2020-12-27 21:12:57 [main] INFO  TestService:46 - Requesting driver
+2020-12-27 21:12:57 [main] INFO  WebDriverThread:64 - Specifying driver (default is 'FIREFOX')
+2020-12-27 21:12:57 [main] WARN  WebDriverThread:72 - No driver specified, defaulting to 'FIREFOX'...
+2020-12-27 21:12:57 [main] INFO  WebDriverThread:87 - Current Browser Selection: FIREFOX
+2020-12-27 21:12:57 [main] INFO  WebDriverThread:88 - Current Operating System: WINDOWS 10
+2020-12-27 21:12:57 [main] INFO  WebDriverThread:89 - Current Architecture: amd64
+2020-12-27 21:12:57 [main] INFO  WebDriverThread:90 - Remote execution: false
+2020-12-27 21:12:59 [main] INFO  WebDriverManager:1140 - Reading https://api.github.com/repos/mozilla/geckodriver/releases to seek geckodriver
+2020-13-27 21:13:01 [main] INFO  WebDriverManager:984 - Latest version of geckodriver is 0.26.0
+2020-13-27 21:13:01 [main] INFO  Downloader:167 - Using binary driver previously downloaded
+2020-13-27 21:13:01 [main] INFO  WebDriverManager:1113 - Exporting webdriver.gecko.driver as C:\Users\QaLight\.m2\repository\webdriver\geckodriver\win64\0.26.0\geckodriver.exe
+2020-13-27 21:13:08 [main] INFO  WebDriverThread:44 - Driver has been obtained
+2020-13-27 21:13:10 [main] INFO  TestService:46 - Requesting driver
+2020-13-27 21:13:10 [main] INFO  WebDriverThread:44 - Driver has been obtained
+2020-13-27 21:13:11 [main] INFO  TestService:46 - Requesting driver
+2020-13-27 21:13:11 [main] INFO  WebDriverThread:44 - Driver has been obtained
+2020-13-27 21:13:11 [main] INFO  TestService:46 - Requesting driver
+2020-13-27 21:13:11 [main] INFO  WebDriverThread:44 - Driver has been obtained
+2020-13-27 21:13:12 [main] INFO  TestService:46 - Requesting driver
+2020-13-27 21:13:12 [main] INFO  WebDriverThread:44 - Driver has been obtained
+2020-13-27 21:13:13 [main] INFO  TestService:46 - Requesting driver
+2020-13-27 21:13:13 [main] INFO  WebDriverThread:44 - Driver has been obtained
+2020-13-27 21:13:13 [main] INFO  TestService:46 - Requesting driver
+2020-13-27 21:13:13 [main] INFO  WebDriverThread:44 - Driver has been obtained
+2020-13-27 21:13:13 [main] INFO  TestService:57 - Closing threads within webDriverThreadPool
+2020-13-27 21:13:15 [main] INFO  WebDriverThread:52 - Driver has been closed
+2020-13-27 21:13:15 [main] INFO  TestService:60 - Thread closed
+2020-21-27 21:21:08 [main] INFO  TestService:46 - Requesting driver
+2020-21-27 21:21:08 [main] INFO  WebDriverThread:64 - Specifying driver (default is 'FIREFOX')
+2020-21-27 21:21:08 [main] WARN  WebDriverThread:72 - No driver specified, defaulting to 'FIREFOX'...
+2020-21-27 21:21:08 [main] INFO  WebDriverThread:87 - Current Browser Selection: FIREFOX
+2020-21-27 21:21:08 [main] INFO  WebDriverThread:88 - Current Operating System: WINDOWS 10
+2020-21-27 21:21:08 [main] INFO  WebDriverThread:89 - Current Architecture: amd64
+2020-21-27 21:21:08 [main] INFO  WebDriverThread:90 - Remote execution: false
+2020-21-27 21:21:09 [main] INFO  WebDriverManager:1140 - Reading https://api.github.com/repos/mozilla/geckodriver/releases to seek geckodriver
+2020-21-27 21:21:10 [main] INFO  WebDriverManager:984 - Latest version of geckodriver is 0.26.0
+2020-21-27 21:21:10 [main] INFO  Downloader:167 - Using binary driver previously downloaded
+2020-21-27 21:21:10 [main] INFO  WebDriverManager:1113 - Exporting webdriver.gecko.driver as C:\Users\QaLight\.m2\repository\webdriver\geckodriver\win64\0.26.0\geckodriver.exe
+2020-21-27 21:21:17 [main] INFO  WebDriverThread:44 - Driver has been obtained
+2020-21-27 21:21:20 [main] INFO  TestService:46 - Requesting driver
+2020-21-27 21:21:20 [main] INFO  WebDriverThread:44 - Driver has been obtained
+2020-21-27 21:21:20 [main] INFO  TestService:46 - Requesting driver
+2020-21-27 21:21:20 [main] INFO  WebDriverThread:44 - Driver has been obtained
+2020-21-27 21:21:21 [main] INFO  TestService:46 - Requesting driver
+2020-21-27 21:21:21 [main] INFO  WebDriverThread:44 - Driver has been obtained
+2020-21-27 21:21:21 [main] INFO  TestService:46 - Requesting driver
+2020-21-27 21:21:21 [main] INFO  WebDriverThread:44 - Driver has been obtained
+2020-21-27 21:21:22 [main] INFO  TestService:46 - Requesting driver
+2020-21-27 21:21:22 [main] INFO  WebDriverThread:44 - Driver has been obtained
+2020-21-27 21:21:23 [main] INFO  TestService:46 - Requesting driver
+2020-21-27 21:21:23 [main] INFO  WebDriverThread:44 - Driver has been obtained
+2020-21-27 21:21:23 [main] INFO  TestService:57 - Closing threads within webDriverThreadPool
+2020-21-27 21:21:25 [main] INFO  WebDriverThread:52 - Driver has been closed
+2020-21-27 21:21:25 [main] INFO  TestService:60 - Thread closed
+2020-47-27 21:47:49 [main] INFO  TestService:46 - Requesting driver
+2020-47-27 21:47:49 [main] INFO  WebDriverThread:64 - Specifying driver (default is 'FIREFOX')
+2020-47-27 21:47:49 [main] WARN  WebDriverThread:72 - No driver specified, defaulting to 'FIREFOX'...
+2020-47-27 21:47:49 [main] INFO  WebDriverThread:87 - Current Browser Selection: FIREFOX
+2020-47-27 21:47:49 [main] INFO  WebDriverThread:88 - Current Operating System: WINDOWS 10
+2020-47-27 21:47:49 [main] INFO  WebDriverThread:89 - Current Architecture: amd64
+2020-47-27 21:47:49 [main] INFO  WebDriverThread:90 - Remote execution: false
+2020-47-27 21:47:50 [main] INFO  WebDriverManager:1140 - Reading https://api.github.com/repos/mozilla/geckodriver/releases to seek geckodriver
+2020-47-27 21:47:51 [main] INFO  WebDriverManager:984 - Latest version of geckodriver is 0.26.0
+2020-47-27 21:47:52 [main] INFO  Downloader:167 - Using binary driver previously downloaded
+2020-47-27 21:47:52 [main] INFO  WebDriverManager:1113 - Exporting webdriver.gecko.driver as C:\Users\QaLight\.m2\repository\webdriver\geckodriver\win64\0.26.0\geckodriver.exe
+2020-47-27 21:47:58 [main] INFO  WebDriverThread:44 - Driver has been obtained
+2020-47-27 21:47:58 [main] INFO  TestProperties:37 - Properties from tests.properties are obtained
+2020-48-27 21:48:01 [main] INFO  TestService:46 - Requesting driver
+2020-48-27 21:48:01 [main] INFO  WebDriverThread:44 - Driver has been obtained
+2020-48-27 21:48:02 [main] INFO  TestService:46 - Requesting driver
+2020-48-27 21:48:02 [main] INFO  WebDriverThread:44 - Driver has been obtained
+2020-48-27 21:48:02 [main] INFO  TestService:46 - Requesting driver
+2020-48-27 21:48:02 [main] INFO  WebDriverThread:44 - Driver has been obtained
+2020-48-27 21:48:03 [main] INFO  TestService:46 - Requesting driver
+2020-48-27 21:48:03 [main] INFO  WebDriverThread:44 - Driver has been obtained
+2020-48-27 21:48:04 [main] INFO  TestService:46 - Requesting driver
+2020-48-27 21:48:04 [main] INFO  WebDriverThread:44 - Driver has been obtained
+2020-48-27 21:48:04 [main] INFO  TestService:46 - Requesting driver
+2020-48-27 21:48:04 [main] INFO  WebDriverThread:44 - Driver has been obtained
+2020-48-27 21:48:04 [main] INFO  TestService:57 - Closing threads within webDriverThreadPool
+2020-48-27 21:48:07 [main] INFO  WebDriverThread:52 - Driver has been closed
+2020-48-27 21:48:07 [main] INFO  TestService:60 - Thread closed
+2020-55-27 21:55:09 [main] INFO  TestService:46 - Requesting driver
+2020-55-27 21:55:09 [main] INFO  TestProperties:40 - Properties from tests.properties are obtained
+2020-55-27 21:55:09 [main] INFO  WebDriverThread:66 - OPTIONAL PROPERTY: FIREFOX
+2020-55-27 21:55:09 [main] INFO  WebDriverThread:67 - Specifying driver (default is 'FIREFOX')
+2020-55-27 21:55:09 [main] WARN  WebDriverThread:75 - No driver specified, defaulting to 'FIREFOX'...
+2020-55-27 21:55:09 [main] INFO  WebDriverThread:90 - Current Browser Selection: FIREFOX
+2020-55-27 21:55:09 [main] INFO  WebDriverThread:91 - Current Operating System: WINDOWS 10
+2020-55-27 21:55:09 [main] INFO  WebDriverThread:92 - Current Architecture: amd64
+2020-55-27 21:55:09 [main] INFO  WebDriverThread:93 - Remote execution: false
+2020-55-27 21:55:10 [main] INFO  WebDriverManager:1140 - Reading https://api.github.com/repos/mozilla/geckodriver/releases to seek geckodriver
+2020-55-27 21:55:11 [main] INFO  WebDriverManager:984 - Latest version of geckodriver is 0.26.0
+2020-55-27 21:55:12 [main] INFO  Downloader:167 - Using binary driver previously downloaded
+2020-55-27 21:55:12 [main] INFO  WebDriverManager:1113 - Exporting webdriver.gecko.driver as C:\Users\QaLight\.m2\repository\webdriver\geckodriver\win64\0.26.0\geckodriver.exe
+2020-55-27 21:55:19 [main] INFO  WebDriverThread:45 - Driver has been obtained
+2020-55-27 21:55:21 [main] INFO  TestService:46 - Requesting driver
+2020-55-27 21:55:21 [main] INFO  WebDriverThread:45 - Driver has been obtained
+2020-55-27 21:55:21 [main] INFO  TestService:46 - Requesting driver
+2020-55-27 21:55:21 [main] INFO  WebDriverThread:45 - Driver has been obtained
+2020-55-27 21:55:22 [main] INFO  TestService:46 - Requesting driver
+2020-55-27 21:55:22 [main] INFO  WebDriverThread:45 - Driver has been obtained
+2020-55-27 21:55:22 [main] INFO  TestService:46 - Requesting driver
+2020-55-27 21:55:22 [main] INFO  WebDriverThread:45 - Driver has been obtained
+2020-55-27 21:55:23 [main] INFO  TestService:46 - Requesting driver
+2020-55-27 21:55:23 [main] INFO  WebDriverThread:45 - Driver has been obtained
+2020-55-27 21:55:24 [main] INFO  TestService:46 - Requesting driver
+2020-55-27 21:55:24 [main] INFO  WebDriverThread:45 - Driver has been obtained
+2020-55-27 21:55:24 [main] INFO  TestService:57 - Closing threads within webDriverThreadPool
+2020-55-27 21:55:26 [main] INFO  WebDriverThread:53 - Driver has been closed
+2020-55-27 21:55:26 [main] INFO  TestService:60 - Thread closed
+2020-56-27 21:56:44 [main] INFO  TestService:46 - Requesting driver
+2020-56-27 21:56:44 [main] INFO  TestProperties:40 - Properties from tests.properties are obtained
+2020-56-27 21:56:44 [main] INFO  WebDriverThread:66 - OPTIONAL PROPERTY: CHROME
+2020-56-27 21:56:44 [main] INFO  WebDriverThread:67 - Specifying driver (default is 'FIREFOX')
+2020-56-27 21:56:44 [main] INFO  WebDriverThread:70 - Desired driver is 'CHROME'
+2020-56-27 21:56:44 [main] INFO  WebDriverThread:90 - Current Browser Selection: CHROME
+2020-56-27 21:56:44 [main] INFO  WebDriverThread:91 - Current Operating System: WINDOWS 10
+2020-56-27 21:56:44 [main] INFO  WebDriverThread:92 - Current Architecture: amd64
+2020-56-27 21:56:44 [main] INFO  WebDriverThread:93 - Remote execution: false
+2020-56-27 21:56:46 [main] INFO  WebDriverManager:615 - Using chromedriver 80.0.3987.106 (since Google Chrome 80 is installed in your machine)
+2020-56-27 21:56:46 [main] INFO  WebDriverManager:1113 - Exporting webdriver.chrome.driver as C:\Users\QaLight\.m2\repository\webdriver\chromedriver\win32\80.0.3987.106\chromedriver.exe
+2020-56-27 21:56:51 [main] INFO  WebDriverThread:45 - Driver has been obtained
+2020-56-27 21:56:55 [main] INFO  TestService:46 - Requesting driver
+2020-56-27 21:56:55 [main] INFO  WebDriverThread:45 - Driver has been obtained
+2020-56-27 21:56:56 [main] INFO  TestService:46 - Requesting driver
+2020-56-27 21:56:56 [main] INFO  WebDriverThread:45 - Driver has been obtained
+2020-56-27 21:56:58 [main] INFO  TestService:46 - Requesting driver
+2020-56-27 21:56:58 [main] INFO  WebDriverThread:45 - Driver has been obtained
+2020-56-27 21:56:59 [main] INFO  TestService:46 - Requesting driver
+2020-56-27 21:56:59 [main] INFO  WebDriverThread:45 - Driver has been obtained
+2020-57-27 21:57:00 [main] INFO  TestService:46 - Requesting driver
+2020-57-27 21:57:00 [main] INFO  WebDriverThread:45 - Driver has been obtained
+2020-57-27 21:57:01 [main] INFO  TestService:46 - Requesting driver
+2020-57-27 21:57:01 [main] INFO  WebDriverThread:45 - Driver has been obtained
+2020-57-27 21:57:07 [main] INFO  TestService:46 - Requesting driver
+2020-57-27 21:57:07 [main] INFO  WebDriverThread:45 - Driver has been obtained
+2020-57-27 21:57:07 [main] INFO  TestService:42 - In TestService BeforeClass
+2020-57-27 21:57:07 [main] INFO  TestService:46 - Requesting driver
+2020-57-27 21:57:07 [main] INFO  WebDriverThread:45 - Driver has been obtained
+2020-57-27 21:57:07 [main] INFO  TestService:57 - Closing threads within webDriverThreadPool
+2020-57-27 21:57:08 [main] INFO  WebDriverThread:53 - Driver has been closed
+2020-57-27 21:57:08 [main] INFO  TestService:60 - Thread closed

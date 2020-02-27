@@ -6,21 +6,49 @@
 
     <groupId>ua.alexyepishev</groupId>
     <artifactId>alex-yepishev-selenium-practice</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <version>1.0.0-SNAPSHOT</version>
 
     <properties>
+        <compile.source.version>1.8</compile.source.version>
+        <compile.target.version>1.8</compile.target.version>
         <maven.compiler.plugin.version>3.8.1</maven.compiler.plugin.version>
+
+        <!--Tests configuration (see maven-failsafe-plugin)-->
+        <threads>1</threads>
+        <default.suiteXmlFile>src/test/resources/defaultSuite.xml</default.suiteXmlFile>
+        <smoke.suiteXmlFile>src/test/resources/smokeSuite.xml</smoke.suiteXmlFile>
+        <browserName>CHROME</browserName>
+
+        <!--A-->
+        <aspectj.version>1.9.1</aspectj.version>
+        <assertj.version>3.15.0</assertj.version>
+
+        <!--F-->
+        <maven-failsafe.version>3.0.0-M3</maven-failsafe.version>
+
         <!--L-->
         <lombok.version>1.18.10</lombok.version>
+        <log4j.version>2.13.0</log4j.version>
 
         <!--T-->
         <testng.version>7.1.0</testng.version>
 
         <!--S-->
         <selenium.version>3.141.59</selenium.version>
+
+        <!--W-->
+        <webdrivermanager.version>3.8.1</webdrivermanager.version>
     </properties>
 
     <dependencies>
+        <!-- Fluent assertions library -->
+        <dependency>
+            <groupId>org.assertj</groupId>
+            <artifactId>assertj-core</artifactId>
+            <version>${assertj.version}</version>
+        </dependency>
+
+        <!--L-->
         <dependency>
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
@@ -28,15 +56,50 @@
             <scope>provided</scope>
         </dependency>
         <dependency>
+            <groupId>org.apache.logging.log4j</groupId>
+            <artifactId>log4j-api</artifactId>
+            <version>${log4j.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.logging.log4j</groupId>
+            <artifactId>log4j-core</artifactId>
+            <version>${log4j.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.logging.log4j</groupId>
+            <artifactId>log4j-slf4j-impl</artifactId>
+            <version>${log4j.version}</version>
+        </dependency>
+
+        <!-- https://mvnrepository.com/artifact/org.apache.maven.plugins/maven-failsafe-plugin -->
+        <dependency>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-surefire-plugin</artifactId>
+            <version>3.0.0-M4</version>
+            <scope>test</scope>
+        </dependency>
+
+        <!--T-->
+        <dependency>
             <groupId>org.testng</groupId>
             <artifactId>testng</artifactId>
             <version>${testng.version}</version>
             <scope>test</scope>
         </dependency>
+
+        <!--S-->
         <dependency>
             <groupId>org.seleniumhq.selenium</groupId>
             <artifactId>selenium-java</artifactId>
             <version>${selenium.version}</version>
+        </dependency>
+
+        <!--W-->
+        <!--Automated drivers check and uploading (no binaries keeping within the project)-->
+        <dependency>
+            <groupId>io.github.bonigarcia</groupId>
+            <artifactId>webdrivermanager</artifactId>
+            <version>${webdrivermanager.version}</version>
         </dependency>
     </dependencies>
 
@@ -45,12 +108,73 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
-                <version>${maven.compiler.plugin.version}</version>
+                <version>3.8.1</version>
                 <configuration>
-                    <source>${java.version}</source>
-                    <target>${java.version}</target>
+                    <source>${compile.source.version}</source>
+                    <target>${compile.target.version}</target>
+                    <encoding>UTF-8</encoding>
                 </configuration>
             </plugin>
         </plugins>
     </build>
+
+    <profiles>
+        <profile>
+            <id>e2e-tests</id>
+            <build>
+                <plugins>
+                    <!--Runs integration/system tests safely (no abortion) and parallels them-->
+                    <!--Runs integration/system tests safely (no abortion) and parallels them-->
+                    <plugin>
+                        <groupId>org.apache.maven.plugins</groupId>
+                        <artifactId>maven-surefire-plugin</artifactId>
+                        <version>3.0.0-M4</version>
+                        <configuration>
+                            <!--<parallel>methods</parallel>-->
+                            <!--Define number of threads: <mvn clean install -Dthreads=2>-->
+                            <testFailureIgnore>false</testFailureIgnore>
+                            <!--<threadCount>${threads}</threadCount>-->
+                            <!--<forkCount>${forks}</forkCount>-->
+                            <argLine>
+                                -javaagent:"${settings.localRepository}/org/aspectj/aspectjweaver/${aspectj.version}/aspectjweaver-${aspectj.version}.jar"
+                            </argLine>
+                            <suiteXmlFiles>
+                                <suiteXmlFile>${default.suiteXmlFile}</suiteXmlFile>
+                            </suiteXmlFiles>
+                            <systemPropertyVariables>
+                                <screenshotDirectory>${project.build.directory}/screenshot</screenshotDirectory>
+                                <allure.results.directory>${project.build.directory}/allure-results</allure.results.directory>
+                                <browser>${browserName}</browser>
+                                <!--<desiredBrowserVersion>${browser.version}</desiredBrowserVersion>
+                                <desiredPlatform>${platform}</desiredPlatform>
+                                <remoteDriver>${remote}</remoteDriver>
+                                <selenoidURL>${selenoidURL}</selenoidURL>-->
+                            </systemPropertyVariables>
+                            <!--<includes>
+                                <include>**/*Test.java</include>
+                            </includes>-->
+                        </configuration>
+                        <dependencies>
+                            <dependency>
+                                <groupId>org.aspectj</groupId>
+                                <artifactId>aspectjweaver</artifactId>
+                                <version>${aspectj.version}</version>
+                            </dependency>
+                        </dependencies>
+                    </plugin>
+                    <plugin>
+                        <groupId>io.qameta.allure</groupId>
+                        <artifactId>allure-maven</artifactId>
+                        <version>2.10.0</version>
+                        <configuration>
+                            <properties>
+                                <reportDirectory>${project.build.directory}/allure-report</reportDirectory>
+                                <allure.issues.tracker.pattern>http://example.com/%s</allure.issues.tracker.pattern>
+                            </properties>
+                        </configuration>
+                    </plugin>
+                </plugins>
+            </build>
+        </profile>
+    </profiles>
 </project>

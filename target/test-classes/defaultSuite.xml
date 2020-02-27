@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Smoke tests">
+    <test name="Login page tests">
+        <classes>
+            <class name="ua.alexyepishev.tests.seleniumTests.suites.LoginPageTests"/>
+            <class name="ua.alexyepishev.tests.seleniumTests.suites.user_profile.MyTestSuite2"/>
+        </classes>
+    </test>
+</suite>
