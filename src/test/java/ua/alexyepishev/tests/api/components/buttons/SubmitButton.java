@@ -1,4 +1,4 @@
-package ua.alexyepishev.api.components.buttons;
+package ua.alexyepishev.tests.api.components.buttons;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;

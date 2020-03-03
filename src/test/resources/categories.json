@@ -1,0 +1,6 @@
+[
+  {
+    "name": "Ignored/skipped tests",
+    "matchedStatuses": ["skipped"]
+  }
+]

@@ -1,15 +1,20 @@
 package ua.alexyepishev.tests.seleniumTests.suites;
 
+import io.qameta.allure.*;
 import org.openqa.selenium.WebDriver;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
-import ua.alexyepishev.api.components.buttons.Button;
-import ua.alexyepishev.api.components.pages.LoginPage;
-import ua.alexyepishev.api.components.sections.LoginSection;
+import ua.alexyepishev.tests.api.components.buttons.Button;
+import ua.alexyepishev.tests.api.components.pages.LoginPage;
+import ua.alexyepishev.tests.api.components.sections.LoginSection;
 import ua.alexyepishev.tests.seleniumTests.TestProperties;
 import ua.alexyepishev.tests.seleniumTests.TestService;
 
+import static io.qameta.allure.SeverityLevel.BLOCKER;
+
+@Feature("Login")
+@Issue("MRPT-1234")
 public class LoginPageTests extends TestService {
     private static final String PASSWORD = "909090";
     private static final String USERNAME = "Student";
@@ -23,7 +28,10 @@ public class LoginPageTests extends TestService {
         this.driver = getDriver();
     }
 
-    @Test
+    @Test(description = "Successfully login with valid user credentials")
+    @Description("I usually describe test scenario")
+    @Severity(BLOCKER)
+    @Issue("MTRRJ-1235")
     void successfullyLoginWithValidUserCredentials() {
         LoginPage loginPage = new LoginPage(driver, "http://v3.test.itpmgroup.com");
         loginPage.open()
@@ -57,6 +65,7 @@ public class LoginPageTests extends TestService {
         Button submitButton = loginSection.getSubmitButton();
         submitButton.elementIsVisible();
         submitButton.verifyEnabled();
+        submitButton.click();
                 //submitButton.elementIsVisible();
                 /*.clickSubmitButton()
                 .verifySubmitButtonIsVisible()

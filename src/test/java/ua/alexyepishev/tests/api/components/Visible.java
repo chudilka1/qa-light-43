@@ -1,4 +1,4 @@
-package ua.alexyepishev.api.components;
+package ua.alexyepishev.tests.api.components;
 
 public interface Visible {
     boolean elementIsVisible();

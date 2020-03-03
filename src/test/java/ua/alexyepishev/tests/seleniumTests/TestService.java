@@ -2,17 +2,16 @@ package ua.alexyepishev.tests.seleniumTests;
 
 import lombok.extern.slf4j.Slf4j;
 import org.openqa.selenium.WebDriver;
-import org.testng.annotations.AfterMethod;
-import org.testng.annotations.AfterSuite;
-import org.testng.annotations.BeforeClass;
-import org.testng.annotations.BeforeSuite;
+import org.testng.annotations.*;
 import ua.alexyepishev.tests.seleniumTests.driver.WebDriverThread;
+import ua.alexyepishev.tests.seleniumTests.listeners.ScreenshotListener;
 
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
 @Slf4j
+@Listeners(ScreenshotListener.class)
 public class TestService {
     // A list to store all instances of WebDriverThread
     // A thread won't be able to modify the list while another thread is currently running a method from this list.
@@ -42,7 +41,7 @@ public class TestService {
         log.info("In TestService BeforeClass");
     }
 
-    protected static WebDriver getDriver() {
+    public static WebDriver getDriver() {
         log.info("Requesting driver");
         return driverThread.get().getDriver();
     }
