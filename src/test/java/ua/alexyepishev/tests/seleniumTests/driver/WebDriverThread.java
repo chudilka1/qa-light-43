@@ -25,9 +25,9 @@ public class WebDriverThread {
 
     private final DriverType defaultDriverType = FIREFOX;
     private final String browser = System.getProperty("browser");
-    private static final String operatingSystem = System.getProperty("os.name").toUpperCase();
+    private final String operatingSystem = System.getProperty("os.name").toUpperCase();
     private final String systemArchitecture = System.getProperty("os.arch");
-    private final boolean useRemoteWebDriver = Boolean.getBoolean(System.getProperty("remoteDriver"));
+    private final boolean useRemoteWebDriver = Boolean.getBoolean(System.getProperty("isRemote"));
 
     //private static final Logger LOG = LogManager.getLogger(WebDriverThread.class);
 
@@ -95,6 +95,7 @@ public class WebDriverThread {
         //use pom property <remoteDriver> to instantiate local or remote WebDriver object
         if (useRemoteWebDriver) {
             try {
+                log.info("Remote execution initiated");
                 URL selenoidURL = new URL(System.getProperty("selenoidURL"));
                 String desiredBrowserVersion = System.getProperty("desiredBrowserVersion");
                 String desiredPlatform = System.getProperty("desiredPlatform");
@@ -109,7 +110,7 @@ public class WebDriverThread {
                     capabilities.merge(desiredCapabilities);
                 }
                 webDriver = new RemoteWebDriver(selenoidURL, capabilities);
-
+                log.info("Remote driver was obtained");
             } catch (MalformedURLException e) {
                 log.error("Selenoid URL either absent or corrupted", e);
             }

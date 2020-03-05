@@ -18,6 +18,8 @@
         <default.suiteXmlFile>src/test/resources/defaultSuite.xml</default.suiteXmlFile>
         <smoke.suiteXmlFile>src/test/resources/smokeSuite.xml</smoke.suiteXmlFile>
         <browserName>CHROME</browserName>
+        <selenoidUrl>http://localhost:4444/wd/hub</selenoidUrl>
+        <remote>true</remote>
 
         <!--A-->
         <allure.version>2.13.2</allure.version>
@@ -163,9 +165,9 @@
                                 <allure.results.directory>${project.build.directory}/allure-results</allure.results.directory>
                                 <browser>${browserName}</browser>
                                 <!--<desiredBrowserVersion>${browser.version}</desiredBrowserVersion>
-                                <desiredPlatform>${platform}</desiredPlatform>
-                                <remoteDriver>${remote}</remoteDriver>
-                                <selenoidURL>${selenoidURL}</selenoidURL>-->
+                                <desiredPlatform>${platform}</desiredPlatform>-->
+                                <!--<isRemote>${remote}</isRemote>
+                                <selenoidURL>${selenoidUrl}</selenoidURL>-->
                             </systemPropertyVariables>
                             <!--<includes>
                                 <include>**/*Test.java</include>

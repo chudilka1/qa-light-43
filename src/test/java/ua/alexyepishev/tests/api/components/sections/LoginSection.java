@@ -9,7 +9,7 @@ import ua.alexyepishev.tests.api.components.buttons.Button;
 import static ua.alexyepishev.tests.api.utils.CustomSeleniumActions.doSendKeys;
 
 public class LoginSection {
-    private final By rootSelector = By.className("login-box-");
+    private final By rootSelector = By.className("login-box-body");
     private static final By USERNAME_INPUT_SELECTOR = By.name("_username");
     private static final By PASSWORD_INPUT_SELECTOR = By.id("password");
 

@@ -10,6 +10,7 @@ import ua.alexyepishev.tests.api.components.pages.LoginPage;
 import ua.alexyepishev.tests.api.components.sections.LoginSection;
 import ua.alexyepishev.tests.seleniumTests.TestProperties;
 import ua.alexyepishev.tests.seleniumTests.TestService;
+import ua.alexyepishev.tests.seleniumTests.suites.steps.LoginPageSteps;
 
 import static io.qameta.allure.SeverityLevel.BLOCKER;
 
@@ -20,12 +21,14 @@ public class LoginPageTests extends TestService {
     private static final String USERNAME = "Student";
 
     private WebDriver driver;
+    private LoginPageSteps loginPage;
 
     @Override
     @BeforeClass
     public void setUp() {
         System.out.println("In Before class");
         this.driver = getDriver();
+        this.loginPage = new LoginPageSteps();
     }
 
     @Test(description = "Successfully login with valid user credentials")
@@ -33,16 +36,9 @@ public class LoginPageTests extends TestService {
     @Severity(BLOCKER)
     @Issue("MTRRJ-1235")
     void successfullyLoginWithValidUserCredentials() {
-        LoginPage loginPage = new LoginPage(driver, "http://v3.test.itpmgroup.com");
-        loginPage.open()
-                .verifyTitleIs("Учет запчастей");
-        LoginSection loginSection = loginPage.getLoginSection();
-        loginSection
-                .typeUsername(USERNAME)
-                .typeUsername(USERNAME)
-                .typePassword(PASSWORD)
-                .getSubmitButton();
-                //.clickSubmitButton();
+        loginPage.openLoginPage()
+                .verifyTitleIs("Учет запчастей")
+                .signIn(USERNAME, PASSWORD);
 
         try {
             Thread.sleep(5000);
