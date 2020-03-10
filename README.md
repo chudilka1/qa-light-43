@@ -31,3 +31,5 @@
 2. Once created, pass this set of browser capabilities into the RemoteWebDriver object
 
 `WebDriver driver = new RemoteWebDriver(new URL("https://localhost:4444/wd/hub"), capability);`
+
+GOOD LUCK!!!
